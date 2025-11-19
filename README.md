@@ -8,5 +8,7 @@ The links of our website publish in future once the repository complete.
 
 We are happy to receive your feedback and also contribution requests.
 
+We use Next.js and Tailwind to build this project. Headless is the solution for this project.
+
 All right reserved for PMN and SiHagh.
 Powered by Afran S.D.
