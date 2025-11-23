@@ -1,0 +1,12 @@
+services:
+  career-console:
+    build: .
+
+    volumes:
+      - ./career-console:/app
+
+    ports:
+      - "3000:3000"
+
+    environment:
+      - NODE_ENV=development  

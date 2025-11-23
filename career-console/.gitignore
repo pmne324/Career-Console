@@ -1,9 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-./source
 
 # dependencies
-./career-console/node_modules
-./career-console/.pnp
+/node_modules
+/.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -12,17 +11,17 @@
 !.yarn/versions
 
 # testing
-./career-console/coverage
+/coverage
 
 # next.js
-./career-console/.next/
-./career-console/out/
+/.next/
+/out/
 
 # production
-./career-console/build
+/build
 
 # misc
-./career-console/.DS_Store
+.DS_Store
 *.pem
 
 # debug
