@@ -2,27 +2,30 @@
 ./source
 
 # dependencies
-./career-console/node_modules
-./career-console/.pnp
+./client/career-console-react/node_modules
+./client/career-console-react/.pnp
 .pnp.*
+.npm/*
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+*.tgz
+
 
 # testing
-./career-console/coverage
+./client/career-console-react/coverage
 
 # next.js
-./career-console/.next/
-./career-console/out/
+./client/career-console-nextjs/.next/
+./client/career-console-nextjs/out/
 
 # production
-./career-console/build
+./client/career-console-react/build
 
 # misc
-./career-console/.DS_Store
+./client/career-console-react/.DS_Store
 *.pem
 
 # debug
